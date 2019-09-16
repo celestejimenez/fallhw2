@@ -1,9 +1,11 @@
-/* html{background-color: rgb(236, 236, 236)  }
+html{background-color: rgb(236, 236, 236)  }
 
-body {
-    margin: 0;
+header {
+    text-align: center
 }
 
+
+/*
 a {
     text-decoration: none;
     color: black;
@@ -30,5 +32,6 @@ a {
     display
 }
 
-.review-clients */ 
+.review-clients
 
+*/
