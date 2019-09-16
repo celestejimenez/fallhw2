@@ -4,7 +4,7 @@ header {
     text-align: center;
 }
 
-h3 {
+.page-subtitle {
     font-size: 20px;
     font-style: italic;
 }
@@ -13,11 +13,11 @@ body {
     
 }
 
-img {
+.main-photo {
     size: 100px;
 }
 
-table {
+.main-table {
     border: red;
 }
 tr {
