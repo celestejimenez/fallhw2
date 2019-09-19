@@ -5,47 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Our First Web Page</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="fixed-bar"> 
         <h1 class="page-title">Jimenez, Celeste</h1>
+        <p class="center"> ___________________________________________________________</p>
         <h3 class="page-subtitle">Welcome to IS445 Homework 2</h3>
     </header>
 
     <!-- below is my main content -->
     <main> 
-        <div class="main-photo">
-                <img src="images/IMG_3077.jpg" alt="Image of small chihuahua laying down">
+        <div class="image">
+                <img src="images/IMG_3077.jpg" width= "220" height="250" alt="Image of small chihuahua laying down">
         </div>
-        <table class="main-table">
+<div class="main">  
+    <div class="About">
+            <h3>About Me</h2>
+            <h4>Education</h4>
+            <h5>2020, Bachelor of IS, CSULB</h5>
+            <h4>Skills</h4>
+            <h5>
+                <ol>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Python</li>
+                    <li>Oracle PL/SQL</li>
+                </ol>
+            </h5>
+            <h4>Expectation for this course</h4>
+            <h5>I'd like to learn more about the different opportunities out there after obtaining these skills. At the end of this semester, I hope to be proficient in HTML, CSS, and JavaScript. I am aware that I need to put in plenty of hours to get there.</h5>
+
+        </div>
+        <div class="Contact">
+            <h3>Contact Me</h2>
+            <h5>Name:</h5>
+            <input type="text">
+            <h5>E-mail:</h5>
+            <input type="text">
+            <h5>Message:</h5>
+            <textarea> </textarea>
+
+        </div>
+</div>
+        
+<!-- <div>
+     <table class="table">
             <tr>
-                <th>About Me</th>
-                <th>Contact Me</th>
+                <td class="title">About Me</td>
+                <td class="title">Contact Me</td>
             </tr>
             <tr>
-                <td>Education</td>
+                <th>Education</th>
             </tr>
             <tr>
                 <td>2020, Bachelor of IS, CSULB</td>
             </tr>
             <tr>
-                <td>Skills</td>
+                <th>Skills</th>
             </tr>
             <tr>
                 <td>
-                    <ol>Web Programming: HTML, CSS, JavaScript</ol>
-                    <ol>Programming: Python</ol>
-                    <ol>Database: Oracle PL/SQL</ol>
+                    <ol>
+                    <li>Web Programming: HTML, CSS, JavaScript</li>
+                    <li>Python</li>
+                    <li>Database: Oracle PL/SQL</li>
+                </ol>
                 </td>
             </tr>
             <tr>
-                <td>Expectation for this course</td>
+                <th>Expectation for this course</th>
             </tr>
             <tr>
-                <td>I'd like to learn more about HTML and CSS quickly so that it can be easily applicable. I hope to become proficient in both along with JavaScript. I hope that by the end of the semester I can be able to apply my skills in my job.</td>
+                <td> I'd like to learn more about the different opportunities out there after obtaining these skills. At the end of this semester, I hope to be proficient in HTML, CSS, and JavaScript. I am aware that I need to put in plenty of hours to get there.</td>
             </tr>
         </table>
+</div>
+--> 
     </main>
 
     <footer></footer>
