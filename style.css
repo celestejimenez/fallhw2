@@ -33,10 +33,15 @@ body {
 .main {
     margin: auto;
     display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20%;
+    margin-top: 5%;
 }
 .About {
     flex: 0 0 50%;
-    border: 1px solid red;
+    border: 2px solid red;
+  
 }
 
 h3 {
@@ -57,7 +62,10 @@ h5 {
 
 .Contact {
     flex: 0 0 50%;
-    border: 1px solid red;
+    border: 2px solid red;
+    
+
+  
 }
 /* .table {
     border: 1 px solid red;
